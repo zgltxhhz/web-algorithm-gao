@@ -1,14 +1,22 @@
 {
-  "name": "web-algorithm-by-gaozhan",
+  "name": "web-algorithm",
   "version": "1.0.0",
-  "description": "a algorithm \u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dweb \u001b[C\u001b[C\u001b[D\u001b[Dalgorithm package",
+  "description": "a web algorithm package",
   "main": "index.js",
   "scripts": {
-    "test": "\\"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zgltxhhz/web-algorithm-gao.git"
   },
   "keywords": [
     "algorithm"
   ],
   "author": "gaozhan",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zgltxhhz/web-algorithm-gao/issues"
+  },
+  "homepage": "https://github.com/zgltxhhz/web-algorithm-gao#readme"
 }
