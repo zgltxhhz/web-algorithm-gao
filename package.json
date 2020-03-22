@@ -1,0 +1,14 @@
+{
+  "name": "web-algorithm-by-gaozhan",
+  "version": "1.0.0",
+  "description": "a algorithm \u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dweb \u001b[C\u001b[C\u001b[D\u001b[Dalgorithm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "\\"
+  },
+  "keywords": [
+    "algorithm"
+  ],
+  "author": "gaozhan",
+  "license": "ISC"
+}
