@@ -11,5 +11,14 @@ module.exports = {
 		let middleValue=arr.splice(arr.length-1,1)[0],leftArr=[],rightArr=[]; 
 		arr.forEach(v=>{v>middleValue?rightArr.push(v):leftArr.push(v)});
 		return arguments.callee(leftArr).concat(middleValue, arguments.callee(rightArr));
-	}
+    },
+    // 插入排序
+    insert: arr=>{
+        let temp=[];
+        temp.push(arr[0]);
+        for(let i=1;i<arr.length;i++){
+            for(let j=temp.length-1;j>=0;j--){if(arr[i]>temp[j]){temp.splice(j+1,0,arr[i]);break;};if(j===0)temp.unshift(arr[i])};
+        }
+        return temp
+    }
 }
